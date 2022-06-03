@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border;
+    text-decoration: none;
+}
+body{
+  
+            background-image: linear-gradient(to right,var(--cor1), var(--cor2));
+            Color:#626161;
+            font-size:100%;
+            font-family:'Inconsolata', monospace;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        :root{
+            --cor0:#FAD4D0;
+            --cor1:#B1DAD8;
+            --cor2:#D8D8D7;
+            --cor3:#727171;
+            --cor4:#626161;
+        }
+.cabeçalho{
+    display:flex;
+    flex-direction:row ;
+    align-items: left;
+    justify-content: space-between;
+    padding:24px;
+}
+        .Logo{
+            background: white;
+            border: solid 3 px white;
+            border-radius: 140px;
+            margin-right: 10px;
+            margin-top: 0 auto;
+            margin-left:5px;
+            margin-bottom:0px;
+            height: 70px;
+            width: 70px;
+        }
+        .cabeçalho-menu{
+            display:flex;
+            gap:32px;
+        }
+
+        .cabeçalho-menu-item{
+            font-family:'Inconsolata', monospace;
+        }
+
+        .fundo{
+            background-attachment: fixed;
+            background-size: cover;
+            height: 350px;
+            width: 700px;
+            margin-top: 80px;
+        }
+
+        .conteudo{
+            padding-top:0px ;
+            margin-bottom:20px;
+            margin-top:0px; 
+            border-top:0.2px solid  var(--cor3);
+        }
+        .conteudo-principal{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+    .conteudo-principal-escrito{
+        display:flex;
+        flex-direction:column;
+        gap:32px;
+        font-weight: 50px;
+    }
+
+    .conteudo-principal-escrito-titulo{
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        font-size: 40px;
+        color: white;
+        padding-top: 20px; 
+        margin-top: 50px;
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.486);
+    }
+
+    .conteudo-principal-escrito-subtitulo{
+    font-family:'Yeseva One', cursive;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.808);
+    }
+
+    .conteudo-principal-escrito-botão{
+        background-color: white;
+        color:var(--cor1);
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        font-size: 24;
+        width: 162px;
+        height: 60px;
+        border-radius: 150px;
+        border: none;
+        box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.247);
+       margin-bottom: 20px;
+       margin-left: 155px;
+    }
+
+    :hover.conteudo-principal-escrito-botão{
+        text-decoration:underline;
+        background-color:var(--cor3);
+        color:white;
+        transition-duration: 3s;  
+    }
+    .beautiful{
+        background-color: lightgrey;
+        height:200px;
+        border: solid 8px white;
+        border-radius: 200px;
+        padding-top: 30px;
+        padding-right: 5px;
+        margin: 50px;
+    }
+
+    .conteudo-secundário{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    gap:24px;
+    margin-top:48px;
+    }
+
+    .rodape{
+        padding: 120px;
+        margin-top: 140px;
+        border-top: 0.2px  solid var(--cor3);
+        text-align: center;
+        color:white;
+        font-size:70px;
+        font-style:bolder ;
+    }
+
+
